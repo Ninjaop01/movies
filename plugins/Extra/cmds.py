@@ -53,7 +53,7 @@ async def admin_cmds(client, message):
         "<b>Admin All Commands [auto delete 2 min] 👇</b>",
         reply_markup=reply_markup,
     ) 
-    #  2 minutes (120 seconds)
+    #  30 minutes (120 seconds)
     await asyncio.sleep(120)
     await sent_message.delete()
     await message.delete()
